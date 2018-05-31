@@ -3,10 +3,10 @@
 int main()
 {
 
-for (int a = 0; a<99; a = a+1)
+for (int a = 0; a<99; a++)
 {
 int div = 4;
-if (a%div==0)
+if (a%div == 0)
 printf("%d\n", a);
 }
 }
